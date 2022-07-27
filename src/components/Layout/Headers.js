@@ -5,7 +5,7 @@ const Header = () => {
     <Fragment>
       <header>
         <h2>The Meals App</h2>
-        <button>Cart</button>
+        <button>Cart - 3</button>
       </header>
     </Fragment>
   );
