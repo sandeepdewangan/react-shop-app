@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import MealsItemForm from "./MealsItemForm";
 
 const MealItem = (props) => {
   return (
@@ -6,6 +7,7 @@ const MealItem = (props) => {
       <h5>
         {props.meals.title}, Rs. {props.meals.price}-{props.meals.description}
       </h5>
+      <MealsItemForm />
     </Fragment>
   );
 };

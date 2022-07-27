@@ -23,8 +23,8 @@ const DUMMY_MEALS = [
 ];
 const AvailableMeals = () => {
   const meals = DUMMY_MEALS.map((m) => (
-    <h3>
-      <li key={m.id}>
+    <h3 key={m.id}>
+      <li>
         <MealItem meals={m} />
       </li>
     </h3>
